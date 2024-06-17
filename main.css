@@ -1,0 +1,171 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('imagens/papel-de-parede.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000; /* Adiciona sombra ao texto */
+}
+
+header {
+    text-align: center;
+    background-color: rgba(44, 62, 80, 0.8);
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-family: 'Impact', sans-serif;
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(52, 73, 94, 0.8);
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-shadow: none; /* Remove sombra do texto dos links de navegação */
+}
+
+nav a:hover {
+    background-color: rgba(44, 62, 80, 0.8);
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 2px #000000; /* Adiciona sombra ao texto dos títulos */
+}
+
+p, label, input, textarea, button {
+    font-family: 'Arial', sans-serif;
+}
+
+.destaque {
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.destaque img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-padding-top {
+    padding-top: 120px; /* Ajuste para evitar sobreposição do cabeçalho */
+}
+
+.jogos, .noticias, .contato {
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+   
+}
+
+.jogos ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.jogos li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.jogos li img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #34495e;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.descricao-jogo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent background for readability */
+}
+
+.descricao-jogo img {
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 20px; /* Adiciona espaçamento superior */
+}
+
+.descricao-jogo .texto-jogo {
+    max-width: 60%;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(44, 62, 80, 0.8);
+    color: white;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-shadow: none; /* Remove sombra do texto do rodapé */
+}
